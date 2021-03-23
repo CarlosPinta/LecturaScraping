@@ -58,6 +58,7 @@ def parse_home():
                 os.mkdir(today)
 
             for link in links_to_notices:
+                link=HOME_URL+link
                 parse_notice(link, today)
 
         else:
