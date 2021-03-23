@@ -1,0 +1,4 @@
+links= //span[@class="field-content"]/a/@href
+titulo= //h1[@class="page-header"]/span[@property="schema:name"]/text()
+encabezado=//div[@class="field field--name-bp-header field--type-string field--label-hidden field--item"]/text()
+cuerpo=//div[@class="field field--name-bp-text field--type-text-long field--label-hidden field--item"]/p[not(@class)]/text()
